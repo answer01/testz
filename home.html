@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220415220847">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__row">
+					<a href="#" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture></a>
+					<a href="#" class="header__login">
+						<div class="header__login--user-icon">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#svg-user"></use>
+							</svg>
+						</div>
+						<div class="header__login--user-name">
+							Имя Фамилия
+						</div>
+						<div class="header__login--icon">
+							<picture><source srcset="img/icons/login.webp" type="image/webp"><img src="img/icons/login.png" alt=""></picture>
+						</div>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__item--link" href="">Сотрудники</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__item--link" href="#">Виктория Беляева,</a>
+							<a class="breadcrumbs__item--link" href="mailto:belyaeva@companyname">belyaeva@companyname</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="main__container">
+
+					<aside class="panel">
+
+						<button class="panel__btn">
+							<div class="panel__btn--wrapper">
+								<svg class="panel__btn--search">
+									<use xlink:href="img/icons/icons.svg#svg-search"></use>
+								</svg>
+								<svg class="panel__btn--user">
+									<use xlink:href="img/icons/icons.svg#svg-user"></use>
+								</svg>
+							</div>
+						</button>
+
+						<form class="panel__form" action="#" method="get">
+							<div class="panel__form--search search">
+								<input class="search__input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Быстрый поиск..." class="input">
+								<button type="submit" class="search__button">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-search"></use>
+									</svg>
+								</button>
+							</div>
+						</form>
+
+						<ul class="panel__list">
+
+							<li class="panel__list-item panel-item">
+								<div class="panel-item__img">
+									<picture><source srcset="img/user2.webp" type="image/webp"><img src="img/user2.png" alt="user1"></picture>
+								</div>
+								<div class="panel-item__content">
+									<p class="panel-item__content--title">
+										Анна Иванова
+									</p>
+									<p class="panel-item__content--subtitle">
+										Менеджер, Отдел продаж
+									</p>
+									<p class="panel-item__content--state state-1">
+										на увольнении
+									</p>
+								</div>
+								<div class="panel-item__value">
+									12
+								</div>
+							</li>
+
+							<li class="panel__list-item panel-item active">
+								<div class="panel-item__img">
+									<picture><source srcset="img/user1.webp" type="image/webp"><img src="img/user1.png" alt="user1"></picture>
+								</div>
+								<div class="panel-item__content">
+									<p href="#" class="panel-item__content--title">
+										Виктория Беляева
+									</p>
+									<p class="panel-item__content--subtitle">
+										Менеджер, Отдел продаж
+									</p>
+									<p class="panel-item__content--state state-2">
+										в отпуске
+									</p>
+								</div>
+								<div class="panel-item__value">
+									247
+								</div>
+							</li>
+
+							<li class="panel__list-item panel-item">
+								<div class="panel-item__img">
+									<picture><source srcset="img/user3.webp" type="image/webp"><img src="img/user3.png" alt="user1"></picture>
+								</div>
+								<div class="panel-item__content">
+									<p href="#" class="panel-item__content--title">
+										Виктор Сурков
+									</p>
+									<p class="panel-item__content--subtitle">
+										Менеджер, Отдел продаж
+									</p>
+									<p class="panel-item__content--state state-3">
+
+									</p>
+								</div>
+								<div class="panel-item__value">
+									0
+								</div>
+							</li>
+
+						</ul>
+
+					</aside>
+
+					<div class="content">
+
+						<div class="content__component content-component">
+							<div class="content-component__head">
+
+								<div class="content-component__head--user head-user">
+									<div class="head-user__img">
+										<picture><source srcset="img/user1.webp" type="image/webp"><img src="img/user1.png" alt="user1"></picture>
+										<div class="head-user__img--icon">
+											<img src="img/icons/smile.svg" alt="smile">
+										</div>
+									</div>
+									<div class="head-user__inner">
+										<p class="head-user__title visible">Виктория Беляева</p>
+										<p class="head-user__subtitle">Менеджер, Отдел продаж</p>
+									</div>
+								</div>
+
+								<div class="content-component__head--statistic head-statistic">
+									<div class="head-statistic__top statistic-top">
+										<div class="statistic-top__time">
+											Последняя активность
+											<span class="statistic-top__time--date">
+												сегодня в 12:22
+											</span>
+										</div>
+
+										<a class="statistic-top__back" href="#">
+											к списку сотрудников
+										</a>
+									</div>
+
+									<div class="head-statistic__bottom statistic-bottom">
+										<ul class="statistic-bottom__list">
+											<li class="statistic-bottom__list-item statistic-item">
+												<div class="statistic-item__title">
+													Уровень риска
+												</div>
+												<div class="statistic-item__values">
+													<div class="statistic-item__value-main "><span class="count" data-value=157 data-delay=20 data-precision=0></span>
+													</div>
+													<div class="statistic-item__value-dinamic">
+														<span class="statistic-item__value-dinamic--icon down-red">1</span>
+														<span class="statistic-item__value-dinamic--value down">-100%</span>
+													</div>
+												</div>
+											</li>
+
+											<li class="statistic-bottom__list-item statistic-item">
+												<div class="statistic-item__title">
+													Продуктивность
+												</div>
+												<div class="statistic-item__values">
+													<div class="statistic-item__value-main "><span class="count" data-value=86 data-delay=30 data-precision=0>1</span>%
+													</div>
+													<div class="statistic-item__value-dinamic">
+														<span class="statistic-item__value-dinamic--icon up-green">1</span>
+														<span class="statistic-item__value-dinamic--value up">+3%</span>
+													</div>
+												</div>
+											</li>
+
+											<li class="statistic-bottom__list-item statistic-item">
+												<div class="statistic-item__title">
+													Индекс активности
+												</div>
+												<div class="statistic-item__values">
+													<div class="statistic-item__value-main">
+														<span class=" count" data-value=2.4 data-delay=1000 data-precision=1>
+														</span>%
+													</div>
+													<div class="statistic-item__value-dinamic">
+														<span class="statistic-item__value-dinamic--icon up-red">1</span>
+														<span class="statistic-item__value-dinamic--value up">+14%</span>
+													</div>
+												</div>
+											</li>
+
+										</ul>
+
+										<div class="statistic-bottom__btns">
+											<button class="statistic-bottom__btn">
+												<svg>
+													<use xlink:href="img/icons/icons.svg#svg-check"></use>
+												</svg>
+											</button>
+											<button class="statistic-bottom__btn">
+												<svg>
+													<use xlink:href="img/icons/icons.svg#svg-video"></use>
+												</svg>
+											</button>
+											<button class="statistic-bottom__btn">
+												<svg>
+													<use xlink:href="img/icons/icons.svg#svg-monitor"></use>
+												</svg>
+											</button>
+											<button class="statistic-bottom__btn">
+												<svg>
+													<use xlink:href="img/icons/icons.svg#svg-menu"></use>
+												</svg>
+											</button>
+										</div>
+
+									</div>
+
+								</div>
+
+
+							</div>
+
+							<div class="content-component__body">
+
+								<div class="warn">
+
+									<h2 class="warn__title title">Аномалии</h2>
+
+									<ul class="warn__list">
+										<li data-watch data-watch-once class="warn__list-item">
+											<div class="warn__list-item--img">
+												<svg>
+													<use xlink:href="img/icons/icons.svg#svg-warn"></use>
+												</svg>
+											</div>
+											<p class="warn__list-item--text">Использование более 1 аккаунта в соц сетях и
+												мессенджерах</p>
+										</li>
+
+										<li data-watch data-watch-once class="warn__list-item">
+											<div class="warn__list-item--img">
+												<svg>
+													<use xlink:href="img/icons/icons.svg#svg-warn"></use>
+												</svg>
+											</div>
+											<p class="warn__list-item--text">Первое использование устройства</p>
+										</li>
+
+										<li data-watch data-watch-once class="warn__list-item">
+											<div class="warn__list-item--img">
+												<svg>
+													<use xlink:href="img/icons/icons.svg#svg-warn"></use>
+												</svg>
+											</div>
+											<p class="warn__list-item--text">Отсутствие более 40 дней</p>
+										</li>
+
+									</ul>
+
+								</div>
+
+
+								<div class="indicators">
+
+									<h2 class="indicators__title title">Основные показатели</h2>
+
+									<div class="indicators__block">
+
+										<p class="indicators__text">
+											Данные не найдены
+										</p>
+
+									</div>
+
+								</div>
+
+								<div class="statistics">
+
+									<div class="statistics__item">
+
+										<h3 class="statistics__item--title title">Приложения и категории</h3>
+
+										<div class="statistics__table">
+
+											<div class="table__row--item table-title row-title">Категории приложений</div>
+											<div class="table__row--item table-title">время</div>
+											<div class="table__row--item table-title">%</div>
+											<div class="table__row--item table-title l-cell">рост</div>
+
+											<div class="table__row--item row-title">
+												<span class="row-title__icon yellow"></span>Мессанджеры
+											</div>
+											<div class="table__row--item row-time">20:55</div>
+											<div class="table__row--item">18</div>
+											<div class="table__row--item l-cell">+2%</div>
+
+											<div class="table__row--item row-title">
+												<span class="row-title__icon yellow"></span>Браузеры
+											</div>
+											<div class="table__row--item row-time">15:11</div>
+											<div class="table__row--item">12</div>
+											<div class="table__row--item l-cell">-3%</div>
+
+											<div class="table__row--item row-title">
+												<span class="row-title__icon red"></span>Игры
+											</div>
+											<div class="table__row--item row-time">13:11</div>
+											<div class="table__row--item">7</div>
+											<div class="table__row--item l-cell">0</div>
+
+										</div>
+
+									</div>
+
+									<div class="statistics__item">
+
+										<h3 class="statistics__item--title title">Сайты и категории</h3>
+
+										<div class="statistics__table">
+
+											<div class="table__row--item table-title row-title">Категории сайтов</div>
+											<div class="table__row--item table-title">время</div>
+											<div class="table__row--item table-title">%</div>
+											<div class="table__row--item table-title l-cell">рост</div>
+
+											<div class="table__row--item row-title">
+												<span class="row-title__icon yellow"></span>Поисковики
+											</div>
+											<div class="table__row--item row-time">20:55</div>
+											<div class="table__row--item">18</div>
+											<div class="table__row--item l-cell">+2%</div>
+
+											<div class="table__row--item row-title">
+												<span class="row-title__icon green"></span>Новостные порталы
+											</div>
+											<div class="table__row--item row-time">15:11</div>
+											<div class="table__row--item">12</div>
+											<div class="table__row--item l-cell">-3%</div>
+
+											<div class="table__row--item row-title">
+												<span class="row-title__icon green"></span>Сайты с неопределенным наполнением
+											</div>
+											<div class="table__row--item row-time">13:11</div>
+											<div class="table__row--item">7</div>
+											<div class="table__row--item l-cell">0</div>
+
+										</div>
+
+									</div>
+
+									<div class="statistics__item">
+
+										<h3 class="statistics__item--title title">Дисциплина</h3>
+
+										<div class="statistics__table dist">
+
+											<div class="table__row--item table-title row-title">Дата</div>
+											<div class="table__row--item table-title">Приход<br> на работу</div>
+											<div class="table__row--item table-title">Уход<br> с работы</div>
+											<div class="table__row--item table-title">Вренмя<br> на работе</div>
+
+											<div class="table__row--item row-title">29.02</div>
+											<div class="table__row--item time-cell">
+												<span class="time-cell__time">
+													08:46
+												</span>
+												<span class="time-cell__value red">
+													+16 мин
+												</span>
+											</div>
+											<div class="table__row--item time-cell">
+												<span class="time-cell__time">
+													08:46
+												</span>
+												<span class="time-cell__value red">
+													+16 мин
+												</span>
+											</div>
+											<div class="table__row--item time-cell l-cell">
+												<span class="time-cell__time">
+													09:06
+												</span>
+												<span class="time-cell__value green">
+													+6 мин
+												</span>
+											</div>
+
+											<div class="table__row--item row-title">28.02</div>
+											<div class="table__row--item time-cell">
+												<span class="time-cell__time">
+													08:27
+												</span>
+												<span class="time-cell__value green">
+													-3 мин
+												</span>
+											</div>
+											<div class="table__row--item time-cell">
+												<span class="time-cell__time">
+													08:46
+												</span>
+												<span class="time-cell__value green">
+													-3 мин
+												</span>
+											</div>
+											<div class="table__row--item time-cell l-cell">
+												<span class="time-cell__time">
+													08:46
+												</span>
+												<span class="time-cell__value  red">
+													-24 мин
+												</span>
+											</div>
+
+											<div class="table__row--item row-title">25.02</div>
+											<div class="table__row--item time-cell">
+												<span class="time-cell__time">
+													08:42
+												</span>
+												<span class="time-cell__value red">
+													+12 мин
+												</span>
+											</div>
+											<div class="table__row--item time-cell">
+												<span class="time-cell__time">
+													08:42
+												</span>
+												<span class="time-cell__value red">
+													+12 мин
+												</span>
+											</div>
+											<div class="table__row--item time-cell l-cell">
+												<span class="time-cell__time ">
+													08:36
+												</span>
+												<span class="time-cell__value red">
+													-24 мин
+												</span>
+											</div>
+
+										</div>
+
+									</div>
+
+
+
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220415220847"></script>
+</body>
+
+</html>
