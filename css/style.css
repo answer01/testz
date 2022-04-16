@@ -180,6 +180,12 @@ h6 {
 .header__login:hover .header__login--icon {
   animation: login 0.5s infinite;
 }
+.header__login:active .header__login--user-icon {
+  background-color: #EE144E;
+}
+.header__login:active .header__login--user-name {
+  color: #EE144E;
+}
 .header__login--user-icon {
   width: 2rem;
   height: 2rem;
@@ -306,6 +312,9 @@ h6 {
   color: #058DC7;
   text-decoration: underline;
 }
+.breadcrumbs__item--link:active {
+  color: #EE144E;
+}
 
 .main__container {
   display: flex;
@@ -343,12 +352,14 @@ h6 {
   z-index: 10;
   border-radius: 0 20px 20px 0;
   display: none;
+  cursor: pointer;
 }
 .panel__btn .panel__btn--wrapper {
   width: 1.5625rem;
   height: 1.5625rem;
   border-radius: 50%;
-  left: 0.5rem;
+  left: 0.40625rem;
+  top: 0.40625rem;
   background-color: #058DC7;
   position: relative;
   overflow: hidden;
@@ -416,13 +427,19 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.3s;
 }
 .search__button svg {
   height: 0.75rem;
   width: 0.75rem;
 }
 .search__button:hover {
-  color: #058DC7;
+  background-color: #EE144E;
+}
+.search__button:active {
+  background-color: #058DC7;
 }
 
 .panel-item {
@@ -537,7 +554,6 @@ h6 {
   max-height: fit-content;
 }
 .content.active {
-  margin-right: 100%;
   opacity: 0.3;
   cursor: pointer;
 }
@@ -691,6 +707,9 @@ h6 {
   left: -1.125rem;
   width: 0.75rem;
   height: 0.375rem;
+}
+.statistic-top__back:active {
+  color: #EE144E;
 }
 
 .statistic-top__back:hover {
@@ -1016,11 +1035,6 @@ h6 {
   .statistics__item {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-}
-@media (max-width: 29.99875em) {
-  .statistics__item {
-    overflow-x: scroll;
   }
 }
 .statistics__item--title {
